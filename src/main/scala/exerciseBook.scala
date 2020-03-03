@@ -1,7 +1,11 @@
-object Main extends App {
-  //Basic Exercise Book
+object exerciseBook extends App {
+  //Basic Exercise Book for Scala ( started 02/03/2020 )
+
   //Hello World
   println("Hello world!")
+
+
+
 
 
   //Assignment
@@ -11,11 +15,20 @@ object Main extends App {
     {
   println(Hello)
 }
+
+
+
+
+
   //Parameters
   val greeting: String = "Hello, world!"
 
 
     println( greeting )
+
+
+
+
 
   // Type interface
 
@@ -39,34 +52,61 @@ object Main extends App {
 }
 
 
+
+
+
+
 //Strings
 
 val hello = "Hello"
 val length = hello.length
 
+
+
+
+
+
 // Strings2
 
+
+
 // Return Types
-  //Type Interface
-
-//  if int a < int b || int c
-//  return int b * int c
 
 
 
+//Type Interface
 
-// Multiply two numbers End of Day Question
+
+
+
+//Operators
+def add (a:Int, b:Int, c:Int: Int = { a + b = c}
+
+
+//Conditionals
+def add (a:Int, b:Int, c:Int):Boolean = { a + b = c}
+
+else
+var multiply ( Int a * Int b)
+
+
+//Conditionals2
+
+
+
+
+// Day 1 Multiply two numbers End of Day Question
 def addSmallMultiply (a:Int, b:Int, c:Int):Int={
   var nums = List(a,b,c).sorted
   (nums(0) + nums(1))* nums(2)
 
 
 
-//Beer End of Day Question
+//Day 1 Beer End of Day Question
     for(counter <- 100 to 0 by -1)
       print(counter + " bottles of beer on the wall \n " );
 
-    println()
+    println("Go buy more beer!")
 
 
 
