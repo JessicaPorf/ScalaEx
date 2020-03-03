@@ -8,9 +8,9 @@ class hangMan {
     input
   }
 
-  def randomWord(diction : List[String]) : String = {
-    diction( scala.util.Random.nextInt(diction.length) )
-  }
+    def randomWord(diction : List[String]) : String = {
+      diction( scala.util.Random.nextInt(diction.length) )
+    }
 
 
   def wordDivide(diction : String) : List[Char] = {
