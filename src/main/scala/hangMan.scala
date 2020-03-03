@@ -17,8 +17,8 @@ class hangMan {
     diction.toList
   }
 
-  def wordTogether(dictionlist : List[Char]) : String = {
-    dictionlist.mkString(" ")
+  def wordTogether(dictionList : List[Char]) : String = {
+    dictionList.mkString(" ")
   }
 
 
