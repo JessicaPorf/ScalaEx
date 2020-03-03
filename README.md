@@ -1,6 +1,6 @@
 # ScalaEx
 This repository shows my knowledge surrounding the basics of the Scala programming language.
-\ It contains code on the following...
+ <p> It contains code on the following...
 
 * Strings
 * Parameters
