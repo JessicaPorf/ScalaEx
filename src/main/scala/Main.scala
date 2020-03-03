@@ -41,8 +41,10 @@ object Main extends App {
 
 //Strings
 
+val hello = "Hello"
+val length = hello.length
 
-
+// Strings2
 
 // Return Types
   //Type Interface
