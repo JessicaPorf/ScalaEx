@@ -93,6 +93,7 @@ var multiply ( Int a * Int b)
 //Conditionals2
 
 
+//Iteration
 
 
 // Day 1 Multiply two numbers End of Day Question
@@ -102,11 +103,6 @@ def addSmallMultiply (a:Int, b:Int, c:Int):Int={
 
 
 
-//Day 1 Beer End of Day Question
-    for(counter <- 100 to 0 by -1)
-      print(counter + " bottles of beer on the wall \n " );
-
-    println("Go buy more beer!")
 
 
 
