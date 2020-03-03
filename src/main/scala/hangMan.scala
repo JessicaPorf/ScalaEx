@@ -1,8 +1,8 @@
 class hangMan {
 
 
-  def wordingList(fname : String = "dictionaryWords.txt") : List[String] = {
-    val origin = io.Source.fromFile( fname )
+  def wordingList(oname : String = "dictionaryWords.txt") : List[String] = {
+    val origin = io.Source.fromFile( oname )
     val input : List[String] = origin.getLines.toList
     origin.close()
     input
