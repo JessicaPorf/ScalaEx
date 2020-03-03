@@ -52,16 +52,21 @@ val length = hello.length
 //  if int a < int b || int c
 //  return int b * int c
 
-// Multiply two numbers End of Day Question
 
-  def max(a:Int, b:Int, c:Int) : Int = if (a > b ) a else if
+
+
+// Multiply two numbers End of Day Question
+def addSmallMultiply (a:Int, b:Int, c:Int):Int={
+  var nums = List(a,b,c).sorted
+  (nums(0) + nums(1))* nums(2)
+
+
 
 //Beer End of Day Question
-    for(counter <- 100 to 1 by -1)
+    for(counter <- 100 to 0 by -1)
       print(counter + " bottles of beer on the wall \n " );
 
-    println();
-  }
+    println()
 
 
 
