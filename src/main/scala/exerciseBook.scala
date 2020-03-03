@@ -1,4 +1,4 @@
-object exerciseBook extends App {
+
   //Basic Exercise Book for Scala ( started 02/03/2020 )
 
   //Hello World
@@ -100,9 +100,5 @@ var multiply ( Int a * Int b)
 def addSmallMultiply (a:Int, b:Int, c:Int):Int={
   var nums = List(a,b,c).sorted
   (nums(0) + nums(1))* nums(2)
-
-
-
-
 
 
