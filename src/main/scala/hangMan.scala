@@ -1,28 +1,28 @@
 class hangMan {
 
 
-  def wordList(fname : String = "dictionaryWords.txt") : List[String] = {
-    val source = io.Source.fromFile( fname )
-    val words : List[String] = source.getLines.toList
-    source.close()
-    words
+  def wordingList(fname : String = "dictionaryWords.txt") : List[String] = {
+    val origin = io.Source.fromFile( fname )
+    val input : List[String] = origin.getLines.toList
+    origin.close()
+    input
   }
 
-  def randomWord(words : List[String]) : String = {
-    words( scala.util.Random.nextInt(words.length) )
-  }
-
-
-  def wordSplit(word : String) : List[Char] = {
-    word.toList
-  }
-
-  def wordJoin(wordlist : List[Char]) : String = {
-    wordlist.mkString(" ")
+  def randomWord(diction : List[String]) : String = {
+    diction( scala.util.Random.nextInt(diction.length) )
   }
 
 
-  def alphaSet : Set[Char] = {
+  def wordDivide(diction : String) : List[Char] = {
+    diction.toList
+  }
+
+  def wordTogether(dictionlist : List[Char]) : String = {
+    dictionlist.mkString(" ")
+  }
+
+
+  def numberSet : Set[Char] = {
     ('A' to 'Z').toSet
   }
 
