@@ -27,8 +27,9 @@ class hangMan {
   }
 
 
-  def applyGuess(letter : Char, guesslist : List[Char], hanglist : List[Char]) : List[Char] = {
-    guesslist.zip(hanglist).map({case(g,h) => if (letter == h) h else g})
+
+    def applyGuess(letter : Char, guesslist : List[Char], hanglist : List[Char]) : List[Char] = {
+      guesslist.zip(hanglist).map({case(g,h) => if (letter == h) h else g})
   }
-}
+
 }
